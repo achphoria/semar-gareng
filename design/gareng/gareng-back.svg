@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <!-- Gareng (punakawan) — maskot SEMAR AI Cashier. Tampak belakang, A-pose, proporsi sama dengan gareng-front.svg. -->
+  <defs>
+    <radialGradient id="skin" cx="0.42" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#E2A877"/>
+      <stop offset="1" stop-color="#B57446"/>
+    </radialGradient>
+    <linearGradient id="limb" x1="0" x2="1">
+      <stop offset="0" stop-color="#B57446"/>
+      <stop offset="0.45" stop-color="#DCA172"/>
+      <stop offset="1" stop-color="#B57446"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1">
+      <stop offset="0" stop-color="#155E55"/>
+      <stop offset="0.45" stop-color="#23897B"/>
+      <stop offset="1" stop-color="#155E55"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A3A42"/>
+      <stop offset="1" stop-color="#141418"/>
+    </linearGradient>
+    <pattern id="parang" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="44" height="44" fill="#6B3F22"/>
+      <path d="M0 22 Q11 10 22 22 T44 22" fill="none" stroke="#D9A441" stroke-width="7"/>
+      <circle cx="11" cy="36" r="3.5" fill="#D9A441"/>
+      <circle cx="33" cy="8" r="3.5" fill="#D9A441"/>
+    </pattern>
+    <linearGradient id="kainShade" x1="0" x2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1536" fill="#FFFFFF"/>
+
+  <g stroke-linejoin="round" stroke-linecap="round">
+    <!-- kaki -->
+    <rect x="434" y="1140" width="60" height="236" rx="26" fill="url(#limb)" stroke="#2B1A10" stroke-width="5"/>
+    <rect x="530" y="1140" width="60" height="236" rx="26" fill="url(#limb)" stroke="#2B1A10" stroke-width="5"/>
+    <!-- selop (tumit) -->
+    <ellipse cx="458" cy="1386" rx="48" ry="24" fill="#3A2A22" stroke="#2B1A10" stroke-width="5"/>
+    <ellipse cx="566" cy="1386" rx="48" ry="24" fill="#3A2A22" stroke="#2B1A10" stroke-width="5"/>
+
+    <!-- jarik -->
+    <path d="M384 915 L640 915 L664 1172 L360 1172 Z" fill="url(#parang)" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M384 915 L640 915 L664 1172 L360 1172 Z" fill="url(#kainShade)"/>
+    <path d="M360 1172 L664 1172" stroke="#E9C77B" stroke-width="8"/>
+
+    <!-- lengan (A-pose) -->
+    <line x1="398" y1="690" x2="292" y2="884" stroke="#2B1A10" stroke-width="72"/>
+    <line x1="626" y1="690" x2="732" y2="884" stroke="#2B1A10" stroke-width="72"/>
+    <line x1="398" y1="690" x2="292" y2="884" stroke="url(#skin)" stroke-width="62"/>
+    <line x1="626" y1="690" x2="732" y2="884" stroke="url(#skin)" stroke-width="62"/>
+
+    <!-- baju (punggung) -->
+    <path d="M398 652 C440 636 584 636 626 652 L652 702 C662 782 656 862 642 918 L382 918 C368 862 362 782 372 702 Z"
+          fill="url(#shirt)" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M462 646 Q512 668 562 646" fill="none" stroke="#F7B733" stroke-width="12"/>
+    <path d="M512 670 L512 880" stroke="#0F4A43" stroke-width="5" opacity="0.6"/>
+
+    <!-- sabuk + simpul pita di punggung -->
+    <rect x="378" y="892" width="268" height="36" rx="12" fill="#E8552B" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M512 910 C480 880 448 884 452 912 C456 940 488 936 512 910 Z" fill="#E8552B" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M512 910 C544 880 576 884 572 912 C568 940 536 936 512 910 Z" fill="#E8552B" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M504 916 L488 980 L506 972 Z M520 916 L536 980 L518 972 Z" fill="#E8552B" stroke="#2B1A10" stroke-width="4"/>
+    <circle cx="512" cy="910" r="13" fill="#F7B733" stroke="#2B1A10" stroke-width="4"/>
+
+    <!-- lengan baju -->
+    <path d="M400 652 C380 662 362 690 350 730 L410 760 C418 728 424 700 430 680 Z" fill="url(#shirt)" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M624 652 C644 662 662 690 674 730 L614 760 C606 728 600 700 594 680 Z" fill="url(#shirt)" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M352 726 L410 756" stroke="#F7B733" stroke-width="9"/>
+    <path d="M672 726 L614 756" stroke="#F7B733" stroke-width="9"/>
+
+    <!-- tangan (punggung tangan) -->
+    <ellipse cx="282" cy="912" rx="36" ry="44" transform="rotate(25 282 912)" fill="url(#skin)" stroke="#2B1A10" stroke-width="5"/>
+    <ellipse cx="742" cy="912" rx="36" ry="44" transform="rotate(-25 742 912)" fill="url(#skin)" stroke="#2B1A10" stroke-width="5"/>
+
+    <!-- leher -->
+    <rect x="478" y="600" width="68" height="50" fill="url(#limb)" stroke="#2B1A10" stroke-width="5"/>
+
+    <!-- telinga -->
+    <ellipse cx="312" cy="455" rx="30" ry="42" fill="url(#skin)" stroke="#2B1A10" stroke-width="5"/>
+    <ellipse cx="712" cy="455" rx="30" ry="42" fill="url(#skin)" stroke="#2B1A10" stroke-width="5"/>
+
+    <!-- kepala (belakang) -->
+    <ellipse cx="512" cy="432" rx="205" ry="196" fill="url(#skin)" stroke="#2B1A10" stroke-width="6"/>
+    <path d="M309 440 C296 292 398 222 512 222 C626 222 728 292 715 440 C706 530 652 586 512 592 C372 586 318 530 309 440 Z"
+          fill="url(#hair)" stroke="#2B1A10" stroke-width="5"/>
+    <path d="M430 300 Q512 280 594 300 M400 360 Q512 336 624 360" fill="none" stroke="#4A4A55" stroke-width="5" opacity="0.6"/>
+    <circle cx="512" cy="190" r="50" fill="url(#hair)" stroke="#2B1A10" stroke-width="5"/>
+    <rect x="474" y="226" width="76" height="20" rx="10" fill="#F7B733" stroke="#2B1A10" stroke-width="4"/>
+    <ellipse cx="528" cy="172" rx="14" ry="9" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+</svg>
