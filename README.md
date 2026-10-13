@@ -53,7 +53,7 @@ Pelanggan cukup bicara ke layar, Gareng (AI) menjawab dengan suara, menampilkan 
 Gareng memakai project Supabase yang sama dengan SEMAR (URL + anon key dari `semar-erp/app/.env.production`).
 
 - **Lokal**: `npm install` lalu `npm run dev`. Kalau folder `erp-restoran` ada di sebelah folder ini, koneksinya otomatis dibaca dari sana. Atau salin `.env.example` menjadi `.env.local` dan isi.
-- **GitHub Pages**: isi di repo ini → Settings → Secrets and variables → Actions → tab **Variables**: `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY`. Settings → Pages → Source: **GitHub Actions**.
+- **GitHub Pages**: isi di repo ini → Settings → Secrets and variables → Actions → tab **Secrets**: `VITE_SUPABASE_URL` dan `VITE_SUPABASE_ANON_KEY`. Settings → Pages → Source: **GitHub Actions**.
 
 ## Isi repo
 
